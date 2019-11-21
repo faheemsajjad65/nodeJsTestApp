@@ -13,9 +13,10 @@
         "echo 3 ** 4"
     ]
   },
-  "hooks": {
-    "pre-commit": "lint-staged",
-    "pre-push": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "express": "^4.17.1",
