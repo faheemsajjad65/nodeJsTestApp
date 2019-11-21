@@ -3,7 +3,7 @@ module.exports = {
         browser: true,
         es6: true
     },
-    extends: ['loopback','prettier'],
+    extends: ["loopback", "prettier"],
     globals: {
         Atomics: "readonly",
         SharedArrayBuffer: "readonly"
