@@ -10,7 +10,9 @@
   },
   "lint-staged": {
     "*.js": [
-        "echo 3 ** 4"
+        "echo '3 ** 4'",
+        "npm run pretty",
+        "git add"
     ]
   },
   "husky": {

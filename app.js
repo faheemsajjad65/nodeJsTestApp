@@ -4,17 +4,17 @@ var app = express();
 
 //Define request response in root URL (/)
 app.get("/", function(req, res) {
-console.log("debuging");
-console.log("debuging");
-console.log("debuging");
-console.log("debuging");
-console.log("debuging");
-console.log("debuging");
-console.log("debuging");
-res.send("Hello World");
+    console.log("debuging");
+    console.log("debuging");
+    console.log("debuging");
+    console.log("debuging");
+    console.log("debuging");
+    console.log("debuging");
+    console.log("debuging");
+    res.send("Hello World");
 });
 
 //Launch listening server on port 3000
 app.listen(3000, function() {
-console.log("App listening on port 3000!");
+    console.log("App listening on port 3000!");
 });
