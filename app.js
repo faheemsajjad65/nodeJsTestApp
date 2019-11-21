@@ -4,7 +4,7 @@ const app = express();
 // Define request response in root URL (/)
 app.get(
   "/test-admin-test-admin-test-admin-test-admin-test-admin-test-admin-test",
-  function(req, res) {
+  function(req, res, next) {
     console.log("debuging");
     console.log("debuging");
     console.log("debuging");
