@@ -1,9 +1,10 @@
-//Load express module with `require` directive
-var express = require("express");
-var app = express();
+const express = require("express");
+const app = express();
 
-//Define request response in root URL (/)
-app.get("/", function(req, res) {
+// Define request response in root URL (/)
+app.get(
+  "/test-admin-test-admin-test-admin-test-admin-test-admin-test-admin-test",
+  function(req, res) {
     console.log("debuging");
     console.log("debuging");
     console.log("debuging");
@@ -12,9 +13,10 @@ app.get("/", function(req, res) {
     console.log("debuging");
     console.log("debuging");
     res.send("Hello World");
-});
+  }
+);
 
-//Launch listening server on port 3000
+// Launch listening server on port 3000
 app.listen(3000, function() {
-    console.log("App listening on port 3000!");
+  console.log("App listening on port 3000!");
 });
