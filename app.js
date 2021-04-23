@@ -1,17 +1,14 @@
 const express = require("express");
 const app = express();
 
+const bunyan = require('bunyan');
+const log = bunyan.createLogger({name: "myapp"});
+log.info("hi");
+
 // Define request response in root URL (/)
 app.get(
-  "/test-admin-test-admin-test-admin-test-admin-test-admin-test-admin-test",
+  "/",
   function(req, res, next) {
-    console.log("debuging");
-    console.log("debuging");
-    console.log("debuging");
-    console.log("debuging");
-    console.log("debuging");
-    console.log("debuging");
-    console.log("debuging");
     res.send("Hello World");
   }
 );
